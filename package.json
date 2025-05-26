@@ -1,0 +1,18 @@
+{
+  "name": "evaluation_tech",
+  "version": "1.0.0",
+  "description": "Test Evaluation",
+  "main": "index.js",
+  "scripts": {
+    "qa": "npx cypress open --config-file env/qa.config.js",
+    "stage": "npx cypress open --config-file env/stg.config.js",
+    "prod": "npx cypress open --config-file env/prod.config.js"
+  },
+  "author": "Eduardo R0driguez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "cypress": "^14.4.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
