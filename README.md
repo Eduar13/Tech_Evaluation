@@ -22,9 +22,11 @@ instalar cypress
 en este proyecto se ha usado cypress, para lo cual se han configurado scripts para ejecutar los test en ambientes qa y stg.
 
 -estos son los comandos para ejecutar en el ambiente deseado y usando el UI de Cypress
-     ambiente qa: npx cypress open qa
-     ambiente stg: npx cypress open stg
+     -ambiente qa: npx cypress open qa
+     -ambiente stg: npx cypress open stg
 
 -para ejecutar sin abrir la ui de Cypress, y con este podemos ver el reporte de resultados
-     ambiente qa: npx cypress run qa
-     ambiente stg: npx cypress run stg
+     -ambiente qa: npx cypress run qa
+     -ambiente stg: npx cypress run stg
+
+    
